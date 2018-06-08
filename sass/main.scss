@@ -1,0 +1,10 @@
+@import 'abstracts/animations';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/typography';
+
+h1 {
+    color: $main-color;
+}

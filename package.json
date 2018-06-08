@@ -1,0 +1,14 @@
+{
+  "name": "jiji",
+  "version": "1.0.0",
+  "description": "Page for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "author": "David",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
