@@ -5,6 +5,6 @@
 @import 'base/reset';
 @import 'base/typography';
 
-h1 {
-    color: $main-color;
-}
+@import 'components/main-header';
+
+@import 'layout/catalog';

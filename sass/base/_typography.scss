@@ -11,3 +11,15 @@ html {
 	font-family: Regular;
 	src: url('bpg_nino_mtavruli_normal.ttf');
 }
+
+.main-header {
+	h2 {
+		font-family: mainFont;
+		font-size: $fs-22;	
+	}
+}
+
+.catalog-item-header {
+	font-size: $fs-30;
+	text-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
