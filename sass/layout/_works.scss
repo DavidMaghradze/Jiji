@@ -1,0 +1,68 @@
+.works-container {
+    width: 100%;
+    display: flex;
+
+    .works-item {
+        width: 23.75%;
+        height: 600px;
+        transition: all .3s;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &:hover .works-item-text {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .works-item-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,.8);
+            width: 100%;
+            padding: 15px 30px;
+            color: $secondary-color;
+            opacity: 0;
+            transform: translateY(15px);
+            transition: all .3s;
+        }
+    }
+}
+
+.more-item {
+    width: 5%;
+    height: 600px;
+    background: $main-color;
+    position: relative;
+    transition: .3s;
+
+    .more-item-article {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: $secondary-color;
+
+        h4 {
+            font-size: 0;
+            transition: .3s;
+        }
+    }
+
+    &:hover {
+        width: 20%;
+    }
+
+    &:hover h4 {
+        font-weight: bold;
+        font-size: $fs-14;
+    }
+}

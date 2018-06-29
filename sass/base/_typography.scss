@@ -2,6 +2,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+	font-family: Regular;
+}
+
 @font-face {
 	font-family: mainFont;
 	src: url('bpg_nino_mtavruli_bold.ttf');
@@ -22,4 +26,17 @@ html {
 .catalog-item-header {
 	font-size: $fs-30;
 	text-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+
+.services-item-text {
+	font-size: $fs-14;
+}
+
+.works-item-text {
+	font-family: mainFont;
+	font-size: $fs-14;
+	
+	h4 {
+		font-size: $fs-18;
+	}
 }
