@@ -1,0 +1,17 @@
+#about {
+
+    .about-img {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .about-content {
+        padding: 50px;
+        background: $secondary-color;
+        position: absolute;
+        top: 50%;
+        left: -50%;
+        transform: translateY(-50%);
+    }
+}

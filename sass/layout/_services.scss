@@ -30,3 +30,29 @@
         transition: .2s;
     }
 }
+
+// Services page
+.services-image {
+    width: 250px;
+    height: 250px;
+    background: $text-color;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-content {
+    font-size: $fs-14;
+
+    p {
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+}
+
+.services-content-header {
+    font-size: $fs-18;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

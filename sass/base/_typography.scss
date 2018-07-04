@@ -26,6 +26,7 @@ body {
 .catalog-item-header {
 	font-size: $fs-30;
 	text-shadow: 0 2px 4px rgba(0,0,0,.5);
+	font-weight: bold;
 }
 
 .services-item-text {
@@ -39,4 +40,49 @@ body {
 	h4 {
 		font-size: $fs-18;
 	}
+}
+
+.work-content {
+	font-size: $fs-16;
+
+	h3 {
+		font-size: $fs-18;
+	}
+}
+
+.menu-item {
+	a {
+		font-family: mainFont;
+		font-size: $fs-18;
+	}
+}
+
+.contact-box-item {
+	font-size: $fs-18;
+}
+
+.dropdown-item-title {
+	font-size: $fs-18;
+}
+
+.cat-item {
+	font-size: $fs-16;
+}
+
+.carousel-item-content {
+	font-family: mainFont;
+	font-size: $fs-22;
+
+	h2 {
+		font-size: $fs-50;
+	}
+}
+
+.more-button {
+	font-size: $fs-18;
+}
+
+.about-content {
+	font-family: regular;
+	font-size: $fs-18;
 }
